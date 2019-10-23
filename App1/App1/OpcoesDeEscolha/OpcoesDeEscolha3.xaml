@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.OpcoesDeEscolha3"
+             Title="FAST MOVING">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="5" >
+            <Label Text="Que tipo de carga você precisa transportar?" FontSize="Title" />
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="40" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="40" />
+                    </Grid.RowDefinitions>
+
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="0"/>
+                    <Label Text="Mudança compartilhada" Grid.Column="1" Grid.Row="0" FontSize="Medium"/>
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="1" />
+                    <Label Text="Mudança exclusiva" Grid.Column="1" Grid.Row="1" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="2" />
+                    <Label Text="Carga delicada" Grid.Column="1" Grid.Row="2" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="3" />
+                    <Label Text="Caixas e objetos leves" Grid.Column="1" Grid.Row="3" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="4" />
+                    <Label Text="Eletrodomesticos" Grid.Column="1" Grid.Row="4" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="5" />
+                    <Label Text="Móveis de cozinha" Grid.Column="1" Grid.Row="5" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="6" />
+                    <Label Text="Móveis de dormitório" Grid.Column="1" Grid.Row="6" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="7" />
+                    <Label Text="Móveis de escritório" Grid.Column="1" Grid.Row="7" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="8" />
+                    <Label Text="Móveis de sala" Grid.Column="1" Grid.Row="8" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="9" />
+                    <Label Text="Mudança residencial completa" Grid.Column="1" Grid.Row="9" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="10" />
+                    <Label Text="Carga viva (Animais)" Grid.Column="1" Grid.Row="10" FontSize="Medium" />
+                    <CheckBox Color="DarkOrange" Grid.Column="0" Grid.Row="11" />
+                    <Entry Placeholder="Outros - Digite" Grid.Column="1" Grid.Row="11" FontSize="Medium" />
+                </Grid>
+
+                <Button Text="CONTINUAR" TextColor="White" BackgroundColor="DarkOrange" 
+                          VerticalOptions="EndAndExpand" Clicked="MudarOPE4" CornerRadius="10" />
+            </StackLayout>
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

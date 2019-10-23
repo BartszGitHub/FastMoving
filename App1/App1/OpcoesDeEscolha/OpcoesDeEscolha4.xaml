@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.OpcoesDeEscolha4"
+             Title="FAST MOVING">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="5" >
+                    <Label Text="Você vai precisar de?" FontSize="Title" />
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="40" />
+                        </Grid.RowDefinitions>
+
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="0" />
+                        <Label Text="Ajudante de carga e descarga" Grid.Column="1" Grid.Row="0" FontSize="Medium"/>
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="1" />
+                        <Label Text="Caixas" Grid.Column="1" Grid.Row="1" FontSize="Medium" />
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="2" />
+                        <Label Text="Desmontagem/Montagem de móveis" Grid.Column="1" Grid.Row="2" FontSize="Medium" />
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="3" />
+                        <Label Text="Embalagem protetora" Grid.Column="1" Grid.Row="3" FontSize="Medium" />
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="4" />
+                        <Label Text="Transporte por elevador" Grid.Column="1" Grid.Row="4" FontSize="Medium" />
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="5" />
+                        <Label Text="Transporte por escada" Grid.Column="1" Grid.Row="5" FontSize="Medium" />
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="6" />
+                        <Label Text="Véiculo aberto" Grid.Column="1" Grid.Row="6" FontSize="Medium" />
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="7" />
+                        <Label Text="Véiculo Fechado" Grid.Column="1" Grid.Row="7" FontSize="Medium" />
+                        <CheckBox Color="#FF8C00" Grid.Column="0" Grid.Row="8" />
+                        <Entry Placeholder="Outros - Digite" Grid.Column="1" Grid.Row="8" FontSize="Medium" />
+                    </Grid>
+
+                    <Button Text="CONTINUAR" TextColor="#FFFFFF" BackgroundColor="#FF8C00" 
+                           VerticalOptions="EndAndExpand" Clicked="MudarOPE5" CornerRadius="10" />
+                </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

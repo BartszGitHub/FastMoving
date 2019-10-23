@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.CadastroPF">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="5">
+                <Label Text="CPF*" FontSize="Small" TextColor="White" />
+                <Entry Placeholder="Digite o número de CPF" />
+                <Label Text="Nome*" FontSize="Small" TextColor="White" />
+                <Entry Placeholder="Digite o nome" Margin="5, 0, 5, 0"/>
+                <Label Text="Sobrenome*" FontSize="Small" TextColor="White" />
+                <Entry Placeholder="Digite o sobrenome" />
+                <Label Text="E-mail*" FontSize="Small" TextColor="White" />
+                <Entry Placeholder="Digite Seu e-mail" />
+                <Label Text="Confirmação de e-mail*" FontSize="Small" TextColor="White" />
+                <Entry Placeholder="Confirmar e-mail" />
+                <Label Text="Data de nascimento*" FontSize="Medium" />
+                <DatePicker Format="dd/MM/yyyy" />
+                <Label Text="Genero:" FontSize="Medium" />
+                <Picker Title="Selecione"  >
+                    <Picker.Items>
+                        <x:String>Masculino</x:String>
+                        <x:String>Feminino</x:String>
+                    </Picker.Items>
+                </Picker>
+                <Label Text="Telefone celular*" FontSize="Small" TextColor="White"/>
+                    <Entry Placeholder="Digite o Telefone celular" />
+                
+                    <Button Text="CONTINUAR" TextColor="#FFFFFF" BackgroundColor="#FF8C00" 
+                          VerticalOptions="EndAndExpand"  CornerRadius="50" />
+                
+            </StackLayout>
+        </ScrollView>
+        
+    </ContentPage.Content>
+</ContentPage>

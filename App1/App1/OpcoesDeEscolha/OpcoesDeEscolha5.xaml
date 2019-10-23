@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.OpcoesDeEscolha5"
+             Title="FAST MOVING">
+    <ContentPage.Content>
+        <StackLayout Margin="5">
+            <Label Text="Quando de fato pretende realizar o serviço?" FontSize="Title" />
+            <Picker Title="Selecione"  >
+                <Picker.Items>
+                    <x:String>Agora(URGENTE!)</x:String>
+                    <x:String>Em 24 Horas</x:String>
+                    <x:String>Nessa semana</x:String>
+                    <x:String>Nesse mês</x:String>
+                    <x:String>Sem data estimada</x:String>
+                </Picker.Items>
+            </Picker>
+            <Label Text="Informações adicionais:" FontSize="Medium" Margin="5"/>
+            <Editor Placeholder="Digite aqui..."  HeightRequest="200" BackgroundColor="LightGray" />
+
+            <Button Text="CONTINUAR" TextColor="#FFFFFF" BackgroundColor="DarkOrange" 
+                    VerticalOptions="EndAndExpand" CornerRadius="10" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
