@@ -4,7 +4,8 @@
              x:Class="App1.Cartao">
     <ContentPage.Content>
         <StackLayout Margin="5">
-            <Entry Placeholder="Número do Cartão" Keyboard="Numeric" />
+            <Entry Placeholder="Número do Cartão" 
+                   Keyboard="Numeric" />
             <Entry Placeholder="Nome do Titular" />
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -14,10 +15,17 @@
                 <Grid.RowDefinitions>
                     <RowDefinition />
                 </Grid.RowDefinitions>
-                <Entry Placeholder="MM/AA" Keyboard="Numeric" Grid.Column="0" Grid.Row="0"/>
-                <Entry Placeholder="CCV" Keyboard="Numeric" Grid.Column="1" Grid.Row="0"/>
+                <Entry Placeholder="MM/AA" 
+                       Keyboard="Numeric" 
+                       Grid.Column="0" 
+                       Grid.Row="0"/>
+                <Entry Placeholder="CCV" 
+                       Keyboard="Numeric" 
+                       Grid.Column="1" 
+                       Grid.Row="0"/>
             </Grid>
-            <Button Text="ADICIONAR" BackgroundColor="#FF8C00" />
+            <Button Text="ADICIONAR" 
+                    BackgroundColor="#FF8C00" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

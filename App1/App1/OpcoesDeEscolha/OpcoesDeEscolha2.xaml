@@ -17,8 +17,12 @@
                 </Picker.Items>
             </Picker>
 
-            <Button Text="CONTINUAR" TextColor="#FFFFFF" BackgroundColor="#FF8C00" 
-                    VerticalOptions="EndAndExpand" Clicked="MudarOPE3" CornerRadius="10" />
+            <Button Text="CONTINUAR" 
+                    TextColor="#FFFFFF" 
+                    BackgroundColor="#FF8C00" 
+                    VerticalOptions="EndAndExpand" 
+                    Clicked="MudarOPE3" 
+                    CornerRadius="10" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

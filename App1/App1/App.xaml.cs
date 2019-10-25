@@ -11,13 +11,14 @@ namespace App1
             InitializeComponent();
 
              MainPage = new MainPage();
-            // MainPage = new LoginPage();
+             // MainPage = new LoginPage();
             // MainPage = new CadastroPF();
             // MainPage = new OpcoesDeEscolha2();
             // MainPage = new OpcoesDeEscolha3();
             // MainPage = new OpcoesDeEscolha4();
             // MainPage = new OpcoesDeEscolha5();
             // MainPage = new Cartao();
+            // MainPage = new Pagamentos();
         }
 
         protected override void OnStart()

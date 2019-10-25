@@ -106,9 +106,11 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "App1.Android.dll" comes first in this list. */
-		"App1.Android.dll",
 		"App1.dll",
 		"FormsViewGroup.dll",
+		"ModernHttpClient.dll",
+		"Newtonsoft.Json.dll",
+		"OkHttp.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",
@@ -131,8 +133,13 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.Vector.Drawable.dll",
 		"Xamarin.Essentials.dll",
 		"Xamarin.Forms.Core.dll",
+		"Xamarin.Forms.Pages.dll",
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
+		"Xamarin.Forms.Theme.Android.dll",
+		"Xamarin.Forms.Theme.Base.dll",
+		"Xamarin.Forms.Theme.Dark.dll",
+		"Xamarin.Forms.Theme.Light.dll",
 		"Xamarin.Forms.Xaml.dll",
 	};
 	public static final String[] Dependencies = new String[]{

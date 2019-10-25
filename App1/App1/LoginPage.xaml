@@ -4,17 +4,35 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="App1.LoginPage">
+             x:Class="App1.LoginPage"
+             BackgroundColor="White">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#FFFFFF">
-            <Image Source="logo" Margin="50"/>
-            <Label Text="Fazer login" HorizontalOptions="Start"  FontSize="Small" Margin="10" />
-            <Entry Placeholder="Email"  Margin="10"/>
-            <Entry Placeholder="Senha"  Margin="10"/>
-            <Button Text="ENTRAR" FontAttributes="Bold"  BackgroundColor="#FF8C00" Margin="10" Clicked="MudarODP2" TextColor="White" />
-            <Button Text="Esqueci minha senha"  BackgroundColor="#FFFFFF" HorizontalOptions="Start" TextColor="Blue" />
-            <Button Text="QUERO CRIAR UMA CONTA" TextColor="#FF8C00" BackgroundColor="#FFFFFF" 
-                     VerticalOptions="EndAndExpand" BorderWidth="1" BorderColor="#FF8C00" Clicked="MudarCadastroPF2" />
+        <StackLayout>
+            <Image Source="logo" 
+                   Aspect="AspectFill"/>
+            <StackLayout  Margin="10">
+                <Label Text="Fazer login" 
+                       HorizontalOptions="Start"  
+                       FontSize="Small" />
+                <Entry Placeholder="Email"  />
+                <Entry Placeholder="Senha"  />
+                <Button Text="ENTRAR" FontAttributes="Bold"  
+                        BackgroundColor="DarkOrange"  
+                        Clicked="MudarODP2" 
+                        TextColor="White"
+                        CornerRadius="10"/>
+                <Button Text="Esqueci minha senha"  
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="Start" 
+                        TextColor="Blue" />
+            </StackLayout>
+            <Button Text="QUERO CRIAR UMA CONTA" 
+                    TextColor="DarkOrange" 
+                    BackgroundColor="Transparent" 
+                    VerticalOptions="EndAndExpand" 
+                    BorderWidth="1" 
+                    BorderColor="DarkOrange" 
+                    Clicked="MudarCadastroPF2" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -6,9 +6,9 @@
              mc:Ignorable="d"
              x:Class="App1.MainPage">
 
-    <StackLayout BackgroundColor="Black"  >
-         
-            <Image Source="ddd3.png" Aspect="AspectFill"/>
+    <StackLayout BackgroundColor="Black">
+        <Image Source="ddd3.png" 
+               Aspect="Fill"/>
         <StackLayout Margin="5">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -16,15 +16,27 @@
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*" />
+                    <RowDefinition />
                 </Grid.RowDefinitions>
 
-                <Button Text="CADASTRE-SE" FontAttributes="Bold" BackgroundColor="DarkOrange" 
-                        HorizontalOptions="FillAndExpand" Clicked="MudarCadastroPF" TextColor="White"
-                        Grid.Column="0" Grid.Row="0" CornerRadius="10" />
-                <Button Text="LOGIN" FontAttributes="Bold" BackgroundColor="DarkOrange" 
-                        HorizontalOptions="FillAndExpand" Clicked="MudarLoginPage" TextColor="White" 
-                        Grid.Column="1" Grid.Row="0" CornerRadius="10" />
+                <Button Text="CADASTRE-SE" 
+                        FontAttributes="Bold" 
+                        BackgroundColor="DarkOrange" 
+                        HorizontalOptions="FillAndExpand" 
+                        Clicked="MudarCadastroPF" 
+                        TextColor="White"
+                        Grid.Column="0" 
+                        Grid.Row="0" 
+                        CornerRadius="10" />
+                <Button Text="LOGIN" 
+                        FontAttributes="Bold" 
+                        BackgroundColor="DarkOrange" 
+                        HorizontalOptions="FillAndExpand" 
+                        Clicked="MudarLoginPage" 
+                        TextColor="White" 
+                        Grid.Column="1" 
+                        Grid.Row="0" 
+                        CornerRadius="10" />
             </Grid>
         </StackLayout>
     </StackLayout>

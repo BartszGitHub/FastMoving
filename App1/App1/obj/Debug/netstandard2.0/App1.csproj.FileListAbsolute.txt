@@ -10,6 +10,7 @@ C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\Opc
 C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\OpcoesDeEscolha\OpcoesDeEscolha3.xaml.g.cs
 C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\OpcoesDeEscolha\OpcoesDeEscolha4.xaml.g.cs
 C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\OpcoesDeEscolha\OpcoesDeEscolha5.xaml.g.cs
+C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\Pagamentos.xaml.g.cs
 C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\App1.csproj.CoreCompileInputs.cache
 C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfoInputs.cache
 C:\Users\Bruno Henrique\source\repos\App1\App1\App1\obj\Debug\netstandard2.0\App1.AssemblyInfo.cs

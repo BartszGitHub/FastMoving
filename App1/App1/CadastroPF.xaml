@@ -8,30 +8,46 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Margin="5">
-                <Label Text="CPF*" FontSize="Small" TextColor="White" />
+                <Label Text="CPF*" 
+                       FontSize="Small" 
+                       TextColor="White" />
                 <Entry Placeholder="Digite o número de CPF" />
-                <Label Text="Nome*" FontSize="Small" TextColor="White" />
-                <Entry Placeholder="Digite o nome" Margin="5, 0, 5, 0"/>
-                <Label Text="Sobrenome*" FontSize="Small" TextColor="White" />
+                <Label Text="Nome*" 
+                       FontSize="Small" 
+                       TextColor="White" />
+                <Entry Placeholder="Digite o nome" />
+                <Label Text="Sobrenome*" 
+                       FontSize="Small" 
+                       TextColor="White" />
                 <Entry Placeholder="Digite o sobrenome" />
-                <Label Text="E-mail*" FontSize="Small" TextColor="White" />
+                <Label Text="E-mail*" 
+                       FontSize="Small" 
+                       TextColor="White" />
                 <Entry Placeholder="Digite Seu e-mail" />
-                <Label Text="Confirmação de e-mail*" FontSize="Small" TextColor="White" />
+                <Label Text="Confirmação de e-mail*" 
+                       FontSize="Small" 
+                       TextColor="White" />
                 <Entry Placeholder="Confirmar e-mail" />
-                <Label Text="Data de nascimento*" FontSize="Medium" />
+                <Label Text="Data de nascimento*" 
+                       FontSize="Medium" />
                 <DatePicker Format="dd/MM/yyyy" />
-                <Label Text="Genero:" FontSize="Medium" />
+                <Label Text="Genero:" 
+                       FontSize="Medium" />
                 <Picker Title="Selecione"  >
                     <Picker.Items>
                         <x:String>Masculino</x:String>
                         <x:String>Feminino</x:String>
                     </Picker.Items>
                 </Picker>
-                <Label Text="Telefone celular*" FontSize="Small" TextColor="White"/>
-                    <Entry Placeholder="Digite o Telefone celular" />
-                
-                    <Button Text="CONTINUAR" TextColor="#FFFFFF" BackgroundColor="#FF8C00" 
-                          VerticalOptions="EndAndExpand"  CornerRadius="50" />
+                <Label Text="Telefone celular*" 
+                       FontSize="Small" 
+                       TextColor="White"/>
+                <Entry Placeholder="Digite o Telefone celular" />
+                <Button Text="CONTINUAR" 
+                        TextColor="#FFFFFF" 
+                        BackgroundColor="#FF8C00" 
+                        VerticalOptions="EndAndExpand"  
+                        CornerRadius="10" />
                 
             </StackLayout>
         </ScrollView>
