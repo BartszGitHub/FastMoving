@@ -34,3 +34,8 @@ Xamarin.Forms.Theme.Base
 Xamarin.Forms.Theme.Dark
 Xamarin.Forms.Theme.Light
 Xamarin.Forms.Xaml
+netstandard
+System.Reflection.Extensions
+System.Diagnostics.Tools
+System.Resources.ResourceManager
+System.ComponentModel

@@ -19,7 +19,7 @@
                 </Picker.Items>
             </Picker>
             <Label Text="Informações adicionais:" FontSize="Medium" Margin="5"/>
-            <Editor Placeholder="Digite aqui..."  HeightRequest="200" BackgroundColor="LightGray" />
+            <Editor Placeholder="Digite aqui..."  HeightRequest="200"  />
 
             <Button Text="CONTINUAR" TextColor="#FFFFFF" BackgroundColor="DarkOrange" 
                     VerticalOptions="EndAndExpand" CornerRadius="10" />

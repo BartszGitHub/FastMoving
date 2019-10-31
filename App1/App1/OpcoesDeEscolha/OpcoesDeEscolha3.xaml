@@ -27,7 +27,7 @@
                         <RowDefinition Height="30" />
                         <RowDefinition Height="30" />
                         <RowDefinition Height="30" />
-                        <RowDefinition Height="40" />
+                        <RowDefinition Height="45" />
                     </Grid.RowDefinitions>
 
                     <CheckBox Color="DarkOrange" 

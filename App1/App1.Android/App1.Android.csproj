@@ -116,7 +116,7 @@
     <AndroidResource Include="Resources\mipmap-anydpi-v26\ddd2.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logo.png" />
+    <AndroidResource Include="Resources\drawable\novologo.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\styles.xml" />

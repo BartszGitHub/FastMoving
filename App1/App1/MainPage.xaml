@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="App1.MainPage">
 
-    <StackLayout BackgroundColor="Black">
+    <StackLayout BackgroundColor="MidnightBlue">
         <Image Source="ddd3.png" 
                Aspect="Fill"/>
         <StackLayout Margin="5">
@@ -38,7 +38,7 @@
                         Grid.Row="0" 
                         CornerRadius="10" />
             </Grid>
-        </StackLayout>
+            </StackLayout>
     </StackLayout>
     
-</ContentPage>  
+</ContentPage>          
